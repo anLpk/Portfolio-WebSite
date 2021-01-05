@@ -1,0 +1,21 @@
+.work {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.title {
+  display: flex;
+}
+
+.title > a > img {
+  width: 4rem;
+  height: 3rem;
+  vertical-align: text-top;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background: white;
+}
+
+h1 {
+  margin: 0.2em 0.7em;
+}
