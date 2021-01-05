@@ -2,9 +2,10 @@
 @import url("components/footer.css");
 @import url("components/layout.css");
 @import url("components/media.css");
-@import url("components/navbar.css");
 @import url("components/header.css");
 @import url("components/penguin.css");
+@import url("components/emoji.css");
+@import url("components/course.css");
 
 html {
   font-family: "Roboto Mono", "IBM Plex Mono", "Space Mono", monospace;
@@ -20,8 +21,8 @@ body {
 }
 /* Root Color Codes */
 :root {
-  --background: #fde8cd;
-  --title: #433520;
+  --background: white;
+  --title: black;
   --footer: #bedbbb;
   --text: #433520;
   --underline: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%);
@@ -47,6 +48,17 @@ ul {
   list-style: none;
 }
 
+li {
+  font-size: 1.2em;
+}
+
+.about-list-items {
+  list-style-type: square;
+}
+
+#full-stack {
+  font-size: 0.8em;
+}
 /*link styles */
 a {
   text-decoration: none;
@@ -103,13 +115,15 @@ a:visited {
 
 /* Time calculation bottom border style */
 #timeCalc,
-.contact-email {
+.contact-email,
+#leWagonLink {
   font-weight: 700;
   position: relative;
 }
 
 #timeCalc:before,
-.contact-email:before {
+.contact-email:before,
+#leWagonLink:before {
   content: "";
   position: absolute;
   top: 100%;
