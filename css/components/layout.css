@@ -1,0 +1,23 @@
+.all-container {
+  max-width: 35rem;
+  padding: 0 1rem;
+  margin: 1rem auto 3rem;
+}
+
+#about-container {
+  max-width: 48rem;
+}
+
+#contact-layout {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#anil {
+  text-align: center;
+}
+
+.contact-text {
+  text-align: center;
+}
