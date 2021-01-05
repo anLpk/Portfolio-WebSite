@@ -1,0 +1,22 @@
+.fa-youtube {
+  color: #ff0000;
+  margin-left: 4px;
+}
+
+.fa-file-code {
+  color: tomato;
+  font-size: 1.2em;
+  margin-left: 4px;
+}
+
+.em {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+.fa-github,
+.fa-codepen {
+  font-size: 6em;
+  color: black;
+  padding: 0.2em;
+}
