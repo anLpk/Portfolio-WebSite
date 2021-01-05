@@ -1,0 +1,13 @@
+header {
+  text-align: center;
+  margin: 1em auto;
+}
+
+header > img {
+  width: 9em;
+  /* border-radius: 50%; */
+}
+
+header > img:hover {
+  cursor: pointer;
+}
